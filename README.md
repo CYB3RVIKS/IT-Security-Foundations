@@ -1,7 +1,7 @@
 # IT-Security-Foundations
 To become comfortable with Linux and networking basics
 ## Networking
-- TCP/IP Model
+- TCP/IP Model: notes/TCP Model.md
 - DNS
 - HTTP/S
 - TLS
