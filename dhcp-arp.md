@@ -1,7 +1,9 @@
 # DHCP & ARP
 
-> **Learning Track:** Networking Essentials
+> **Learning Track:** Networking Essentials 
 > **Focus:** DHCP, ARP, MAC addresses, and network security implications
+> [DHCP](https://tryhackme.com/room/networkingessentials?taskNo=2&sharerId=68025329c716e4bfe75b004f)
+> [ARP](https://tryhackme.com/room/networkingessentials?taskNo=3&sharerId=68025329c716e4bfe75b004f)
 
 ## Overview
 
@@ -205,10 +207,5 @@ That's the mindset I'm trying to build.
 
 ### Resources / Practice
 
-* Networking Essentials learning materials
-* Practical networking exercises
 * Personal notes and observations
 
-### Tags
-
-`#Cybersecurity` `#Networking` `#DHCP` `#ARP` `#NetworkSecurity` `#CybersecurityStudent` `#LearningInPublic`
