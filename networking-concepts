@@ -1,0 +1,148 @@
+# Today, I completed the **Networking Concepts** room on TryHackMe.
+
+And honestly, this was one of those rooms that made several things I had previously seen as "just networking theory" start to make more sense.
+
+As a cybersecurity student, I’m realizing that networking isn't something I can afford to just memorize and move on from. If I want to understand how attacks happen, how defenders detect them, or how systems communicate in the first place, I need to understand what is happening underneath.
+
+So today, I focused on the fundamentals.
+
+---
+
+## What I Learnt
+
+### 1. OSI Model
+
+I revisited the **7 layers of the OSI model** and what happens at each layer during network communication.
+
+The layers are:
+
+1. Physical
+2. Data Link
+3. Network
+4. Transport
+5. Session
+6. Presentation
+7. Application
+
+What stood out to me is that the OSI model isn't just something to memorize for an exam. It gives me a way to reason about **where something is happening in a network**.
+
+That perspective becomes useful when troubleshooting or trying to understand network-based attacks.
+
+---
+
+### 2. TCP/IP Model
+
+I also learnt how the **TCP/IP model** relates to the OSI model.
+
+The TCP/IP model is much closer to how networking is implemented in real-world environments, while the OSI model gives a more detailed conceptual breakdown.
+
+Understanding the relationship between both models makes it easier for me to connect networking theory to what actually happens when devices communicate.
+
+---
+
+### 3. IP Addresses & Subnets
+
+I learnt more about how **IP addresses identify devices/interfaces on a network** and how subnetting allows networks to be divided into smaller logical networks.
+
+This is an area I want to spend more time practicing because I can already see how important it is for things like:
+
+* Network segmentation
+* Routing
+* Access control
+* Network reconnaissance
+* Cloud networking
+
+I'm learning that understanding IP addressing properly is going to save me a lot of confusion later.
+
+---
+
+### 4. TCP vs UDP
+
+I also reviewed the difference between **TCP and UDP**.
+
+**TCP** is connection-oriented and provides reliable, ordered delivery of data.
+
+**UDP** is connectionless and does not guarantee delivery or ordering, but has less overhead and can be useful when speed is more important than guaranteed delivery.
+
+What I found interesting is that neither is simply "better" than the other.
+
+The protocol an application uses depends on what the application needs from the network.
+
+---
+
+### 5. Encapsulation
+
+Another concept I learned was **encapsulation**.
+
+As data moves down through the networking layers, additional information is added to help that data travel across the network.
+
+Thinking about this process helped me understand why network traffic contains different headers and why each layer has a specific responsibility.
+
+It's one thing to read:
+
+> "Data is encapsulated as it moves through the network."
+
+It's another thing to understand *why* that information needs to be added in the first place.
+
+That's the part I'm trying to focus on while learning: **understanding the why, not just remembering the what.**
+
+---
+
+## 🧪 Hands-on: Telnet
+
+The final task was my favourite part of the room because I got to actually interact with a network service.
+
+I was given a web server on the TryHackMe AttackBox and had to connect to it using **Telnet**.
+
+I used:
+
+```bash
+telnet MACHINE_IP 80
+```
+
+Port **80** is commonly associated with HTTP.
+
+After connecting, I interacted with the web server and examined its response to identify information about the HTTP server.
+
+This was a simple exercise, but it made the lesson much more tangible.
+
+Instead of just learning:
+
+**"HTTP is an application-layer protocol."**
+
+I was able to connect to a service and actually see the server respond.
+
+That was probably my biggest takeaway from today's room.
+
+---
+
+## What I'm Taking Away
+
+The biggest thing I'm learning from these hands-on rooms is that cybersecurity becomes much easier to understand when I stop treating every topic as an isolated concept.
+
+**OSI → TCP/IP → IP addresses → TCP/UDP → HTTP → services**
+
+These concepts are connected.
+
+And eventually, these same fundamentals will help me understand things like:
+
+* Network traffic analysis
+* SOC investigations
+* Network security
+* Reconnaissance
+* Penetration testing
+* Cloud networking and security
+
+---
+
+## Practical Work
+
+**TryHackMe:** Networking Concepts
+
+**Hands-on task:** Connected to a web server using Telnet on port 80.
+
+*Screenshots from the lab are included below.*
+
+![Telnet Connection to HTTP Server](Telnet.png)
+
+---
