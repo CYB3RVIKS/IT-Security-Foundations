@@ -2,6 +2,7 @@
 To become comfortable with Linux and networking basics
 ## Networking
 - [TCP/IP Model](notes/tcp-model.md)
+- [DHCP & ARP](notes/dhcp-arp.md)
 - DNS
 - HTTP/S
 - TLS
