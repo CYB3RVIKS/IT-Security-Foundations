@@ -1,3 +1,4 @@
+**Lab:** [TryHackMe — Networking Concepts](https://tryhackme.com/room/networkingconcepts)
 I completed the **Networking Concepts** room on TryHackMe.
 
 And honestly, this was one of those rooms that made several things I had previously seen as "just networking theory" start to make more sense.
