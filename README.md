@@ -2,7 +2,7 @@
 To become comfortable with Linux and networking basics
 ## Networking
 - [TCP/IP Model](notes/tcp-model.md)
-- [DHCP & ARP](notes/dhcp-arp.md)
+- [DHCP & ARP](https://github.com/CYB3RVIKS/IT-Security-Foundations/blob/b34d140ff2943c76c54ace018b1387216d82ddf3/dhcp-arp.md)
 - [ICMP](notes/icmp.md)
 - [Routing](notes/routing.md)
 - DNS
