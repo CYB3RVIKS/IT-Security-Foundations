@@ -1,10 +1,10 @@
 # IT-Security-Foundations
 To become comfortable with Linux and networking basics
 ## Networking
-- [TCP/IP Model](notes/tcp-model.md)
+- [TCP/IP Model](tcp-model.md)
 - [DHCP & ARP](dhcp-arp.md)
-- [ICMP](notes/icmp.md)
-- [Routing](notes/routing.md)
+- [ICMP](icmp.md)
+- [Routing](routing.md)
 - DNS
 - HTTP/S
 - TLS
