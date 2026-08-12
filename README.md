@@ -5,6 +5,7 @@ To become comfortable with Linux and networking basics
 - [DHCP & ARP](dhcp-arp.md)
 - [ICMP](icmp.md)
 - [Routing](routing.md)
+- [NAT](nat.md)
 - DNS
 - HTTP/S
 - TLS
